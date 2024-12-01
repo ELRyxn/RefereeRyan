@@ -3,3 +3,9 @@ body {
     margin: 0 auto;
     margin-top: 5px;
 }
+
+img{
+
+    border: black solid 1px;
+    border-radius: 20px;
+}
