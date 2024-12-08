@@ -5,7 +5,17 @@ body {
 }
 
 img{
-
     border: black solid 1px;
     border-radius: 20px;
+}
+
+t, .nav
+{
+    border-style: solid;
+    background-color: lightblue;
+}
+.navgeel
+{
+    border-style: solid;
+    background-color: yellow;
 }
