@@ -22,26 +22,23 @@ img{
     border-style: solid;
     background-color: lightblue;
 }
-.navgeel
-{
-    border-style: solid;
-    background-color: yellow;
-}
 
 nav {
     background-color: #333;
     overflow: hidden;
+
 }
 header{
     background-color: #333;
     color: red;
     padding: 5px 10px;
-    text-decoration: none;
 }
+
 nav a {
     display: inline-block;
     color: red;
     padding: 5px 10px;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: #575757;
