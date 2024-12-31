@@ -53,9 +53,6 @@ nav a:hover {
     background-color: #575757;
 }
 
-@media (max-width: 600px) {
-    width: 85%;
-}
 
 @media (min-width: 600px) {
     .image-container {
