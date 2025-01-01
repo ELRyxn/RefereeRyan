@@ -11,6 +11,17 @@ body {
 .photo {
     text-align: center;
 }
+.stats2425container{
+    font-family: Arial, sans-serif;
+    border: black solid 1px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+.stats2425{
+    text-align: center;
+    padding: 5px;
+}
 
 img{
     border: black solid 1px;
