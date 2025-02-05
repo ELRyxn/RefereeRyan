@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Aantal kaarten</title>
   <link href="css/stylesheet.css" rel="Stylesheet">
+  <script charset="utf-8" src="java/rekenmachine.js"></script>
+
 </head>
 <body>
 <header>
@@ -13,7 +15,7 @@
 </header>
   <h2>Gele Kaarten</h2>
 <ul>
-  <li class="geel">Totaal aantal gele kaarten: 81 gele kaarten</li>
+  <li class="geel">Totaal aantal gele kaarten: 95 gele kaarten</li>
 </ul>
   <h2>Dubbel geel</h2>
 <ul>
@@ -21,21 +23,35 @@
 </ul>
   <h2>Rode kaart</h2>
 <ul>
-  <li class="rood">Totaal aantal rode kaarten: 3 rode kaarten</li>
+  <li class="rood">Totaal aantal rode kaarten: 5 rode kaarten</li>
 </ul>
   <ol>
     <li>Ploegsteert : 1</li>
     <li>Geluveld: 1</li>
     <li>Varsenare B: 1</li>
+    <li>Comine: 1</li>
+    <li>Beselare: 1</li>
   </ol>
   <h3>Totaal aantal kaarten</h3>
 <ul>
-  <li><strong>93</strong></li>
+  <li><strong>109</strong></li>
 </ul>
   <h3>Gemiddelde kaarten per gefloten match</h3>
 <ul>
-  <li><strong>5,16</strong></li>
+  <li><strong>5,45</strong></li>
 </ul>
+<p>
+  <input type="number" id="txtGeel" />
+  <input type="button" id="btnOptellen" value="+" />
+  <input type="number" id="txtDubbelGeel" />
+  <input type="number" id="txtRood" />
+  <span id="txtOutput">(geen output)</span>
+</p>
+<p>
+  <input type="number" id="txtTotaleKaarten" />
+  <input type="button" id="btnDelen" value=":" />
+  <input type="number" id="txtWedstrijden" />
 
+</p>
 </body>
 </html>
