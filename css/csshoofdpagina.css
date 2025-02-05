@@ -67,8 +67,16 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-    body{
-        width: 99%;
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .stats2425container {
+        height: 397px;
+        width: 250px;
     }
 }
 
