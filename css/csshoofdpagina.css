@@ -70,12 +70,6 @@ nav a:hover {
     body{
         width: 99%;
     }
-    .image-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        margin: 20px;
-    }
 }
 
 @media (min-width: 600px) {
