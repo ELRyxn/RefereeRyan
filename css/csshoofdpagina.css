@@ -66,6 +66,19 @@ nav a:hover {
     background-color: #575757;
 }
 
+@media (max-width: 600px) {
+    body{
+        width: 80%;
+    }
+    .image-container {
+        display: flex;
+    }
+
+    .stats2425container {
+        height: 397px;
+        width: 250px;
+    }
+}
 
 @media (min-width: 600px) {
     .image-container {
