@@ -68,7 +68,7 @@ nav a:hover {
 
 @media (max-width: 600px) {
     body{
-        width: 99%;
+        width: 80%;
     }
     .image-container {
         display: grid;
