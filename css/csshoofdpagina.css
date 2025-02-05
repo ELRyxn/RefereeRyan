@@ -67,6 +67,9 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
+    body{
+        width: 99%;
+    }
     .image-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
