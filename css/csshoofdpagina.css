@@ -73,11 +73,6 @@ nav a:hover {
         gap: 20px;
         margin: 20px;
     }
-
-    .stats2425container {
-        height: 397px;
-        width: 250px;
-    }
 }
 
 @media (min-width: 600px) {
