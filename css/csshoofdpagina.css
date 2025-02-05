@@ -68,7 +68,7 @@ nav a:hover {
 
 @media (max-width: 600px) {
     body{
-        width: 80%;
+        width: 90%;
     }
     .image-container {
         display: flex;
