@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Navigatiemenu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      position: relative; /* Zorgt ervoor dat submenu goed gepositioneerd wordt */
+      z-index: 1000; /* Zorgt ervoor dat de nav boven andere content staat */
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      position: relative; /* Noodzakelijk voor het submenu */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+    }
+
+    nav ul li:hover > a {
+      background-color: #555;
+    }
+
+    /* Submenu stijlen */
+    nav ul ul {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #333;
+      padding: 0;
+      border-radius: 5px;
+      z-index: 2000; /* Submenu boven alles tonen */
+    }
+
+    nav ul ul li {
+      width: 200px;
+    }
+
+    nav ul li:hover > ul {
+      display: block;
+    }
+
+    nav ul ul a {
+      padding: 10px 20px;
+    }
+
+    nav ul ul a:hover {
+      background-color: #555;
+    }
+
+    /* Extra content voor test */
+    .content {
+      padding: 20px;
+    }
+
+    .content img {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .content p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li>
+      <a href="#">Diensten</a>
+      <ul>
+        <li><a href="#">Webdesign</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Marketing</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Over Ons</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Extra content om te testen of submenu erboven komt -->
+<div class="content">
+  <h1>Welkom bij ons bedrijf</h1>
+  <img src="https://via.placeholder.com/600x300" alt="Voorbeeld Afbeelding">
+  <p>
+    Dit is een voorbeeldtekst om te zien of het submenu boven deze inhoud verschijnt wanneer je over "Diensten" hovert.
+  </p>
+</div>
+</body>
+</html>
