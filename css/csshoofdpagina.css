@@ -4,6 +4,8 @@ head{
 }
 
 body {
+    font-family: Arial, sans-serif;
+
     width: 99%;
     margin-top: 5px;
 }
@@ -55,11 +57,6 @@ img{
 
 
 
- body {
-     font-family: Arial, sans-serif;
-     margin: 0;
-     padding: 0;
- }
 
 nav {
     background-color: #333;
@@ -188,6 +185,7 @@ nav ul ul a:hover {
 @media only screen and (max-width: 1200px) and (min-width: 901px) {
     body{
         width: 99%;
+        margin-left: 2px;
     }
     .image-container {
         display: grid;
